@@ -14,6 +14,7 @@
 		179C81B01E5AB98E00E79166 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179C81A91E5AB98E00E79166 /* HomePageViewController.swift */; };
 		179C81B11E5AB98E00E79166 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179C81AA1E5AB98E00E79166 /* MessageViewController.swift */; };
 		179C81B21E5AB98E00E79166 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179C81AB1E5AB98E00E79166 /* ProfileViewController.swift */; };
+		179C81B41E5ABE5500E79166 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 179C81B31E5ABE5500E79166 /* .gitignore */; };
 		17A7C6F41E5A77610000A598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7C6F31E5A77610000A598 /* AppDelegate.swift */; };
 		17A7C6F61E5A77610000A598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7C6F51E5A77610000A598 /* ViewController.swift */; };
 		17A7C6F91E5A77610000A598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A7C6F71E5A77610000A598 /* Main.storyboard */; };
@@ -48,6 +49,7 @@
 		179C81A91E5AB98E00E79166 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		179C81AA1E5AB98E00E79166 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		179C81AB1E5AB98E00E79166 /* ProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
+		179C81B31E5ABE5500E79166 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		17A7C6F01E5A77610000A598 /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A7C6F31E5A77610000A598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17A7C6F51E5A77610000A598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -126,6 +128,7 @@
 		17A7C6E71E5A77610000A598 = {
 			isa = PBXGroup;
 			children = (
+				179C81B31E5ABE5500E79166 /* .gitignore */,
 				17A7C6F21E5A77610000A598 /* MyProject */,
 				17A7C7071E5A77610000A598 /* MyProjectTests */,
 				17A7C7121E5A77610000A598 /* MyProjectUITests */,
@@ -286,6 +289,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				179C81B41E5ABE5500E79166 /* .gitignore in Resources */,
 				17A7C6FE1E5A77610000A598 /* LaunchScreen.storyboard in Resources */,
 				17A7C6FB1E5A77610000A598 /* Assets.xcassets in Resources */,
 				17A7C6F91E5A77610000A598 /* Main.storyboard in Resources */,
