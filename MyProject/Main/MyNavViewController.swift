@@ -13,7 +13,7 @@ class MyNavViewController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //隐藏navgationBar
-        navigationBar.isHidden = true
+//        navigationBar.isHidden = true
         // Do any additional setup after loading the view.
     }
 
@@ -27,6 +27,8 @@ class MyNavViewController: UINavigationController {
                 //级数为1时显示的是首页的标题否则显示 "返回"
                 title = childViewControllers.first?.title ?? "返回"
 
+            }else{
+                title = "返回"
             }
             viewController.navigationItem.leftBarButtonItem = UIBarButtonItem(title: title, style: .done, target: self, action: #selector(popback))
 

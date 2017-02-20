@@ -47,7 +47,7 @@ class MainViewController: UITabBarController {
             childController.tabBarItem.image = UIImage(named: imageName)
             childController.tabBarItem.selectedImage = UIImage(named: imageName+"_highlighted")
             //2.设置导航栏控制器
-            let childNaVc  = UINavigationController(rootViewController: childController)
+            let childNaVc  = MyNavViewController(rootViewController: childController)
             addChildViewController(childNaVc)
 
         }
@@ -76,14 +76,19 @@ class MainViewController: UITabBarController {
 
         private func controllers(dict:[String:String])->UIViewController{
             //1.取得字典内容
+            //获取命名空间
             let bundleName = Bundle.main.infoDictionary?["CFBundleName"] as? String ?? ""
+            /**
+             let cls = NSClassFromString(bundleName + "." + clsName) as? UIViewController.Type
+             根据字符串获取对应的Class并将对应的AnyObject转成控制器的类型
+                */
             guard let clsName = dict["clsName"],let title = dict["title"],let imageName = dict["imageName"],let cls = NSClassFromString(bundleName + "." + clsName) as? UIViewController.Type else {
                 return UIViewController()
             }
             //2.创建视图控制器
             let vc = cls.init()
             vc.title = title
-            let  nav = UINavigationController(rootViewController: vc)
+            let  nav = MyNavViewController(rootViewController: vc)
             //3.设置tabbar 图像
             vc.tabBarItem.image = UIImage(named: "tabbar_"+imageName)
             //withRenderingMode(.alwaysOriginal)颜色渲染

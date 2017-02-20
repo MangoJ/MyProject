@@ -117,9 +117,9 @@
 		179C81A71E5AB98E00E79166 /* ViewController */ = {
 			isa = PBXGroup;
 			children = (
-				179C81A81E5AB98E00E79166 /* DiscoverViewController.swift */,
 				179C81A91E5AB98E00E79166 /* HomePageViewController.swift */,
 				179C81AA1E5AB98E00E79166 /* MessageViewController.swift */,
+				179C81A81E5AB98E00E79166 /* DiscoverViewController.swift */,
 				179C81AB1E5AB98E00E79166 /* ProfileViewController.swift */,
 			);
 			path = ViewController;
