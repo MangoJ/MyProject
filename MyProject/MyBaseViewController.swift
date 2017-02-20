@@ -1,5 +1,5 @@
 //
-//  ProfileViewController.swift
+//  MyBaseViewController.swift
 //  MyProject
 //
 //  Created by Mstarc on 2017/2/20.
@@ -8,11 +8,11 @@
 
 import UIKit
 
-class ProfileViewController: MyBaseViewController {
+class MyBaseViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        self.view.backgroundColor = UIColor.green
+
         // Do any additional setup after loading the view.
     }
 

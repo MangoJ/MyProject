@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		179C819A1E5A981E00E79166 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179C81991E5A981E00E79166 /* MainViewController.swift */; };
+		179C819E1E5AB24600E79166 /* MyNavViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179C819D1E5AB24600E79166 /* MyNavViewController.swift */; };
+		179C81A01E5AB31700E79166 /* MyBaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179C819F1E5AB31700E79166 /* MyBaseViewController.swift */; };
 		17A7C6F41E5A77610000A598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7C6F31E5A77610000A598 /* AppDelegate.swift */; };
 		17A7C6F61E5A77610000A598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7C6F51E5A77610000A598 /* ViewController.swift */; };
 		17A7C6F91E5A77610000A598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A7C6F71E5A77610000A598 /* Main.storyboard */; };
@@ -40,6 +42,8 @@
 
 /* Begin PBXFileReference section */
 		179C81991E5A981E00E79166 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		179C819D1E5AB24600E79166 /* MyNavViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyNavViewController.swift; sourceTree = "<group>"; };
+		179C819F1E5AB31700E79166 /* MyBaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyBaseViewController.swift; sourceTree = "<group>"; };
 		17A7C6F01E5A77610000A598 /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A7C6F31E5A77610000A598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17A7C6F51E5A77610000A598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -84,6 +88,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		179C819B1E5AB1C800E79166 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				179C81991E5A981E00E79166 /* MainViewController.swift */,
+				179C819D1E5AB24600E79166 /* MyNavViewController.swift */,
+				179C819F1E5AB31700E79166 /* MyBaseViewController.swift */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		179C819C1E5AB1EB00E79166 /* ViewCotroller */ = {
+			isa = PBXGroup;
+			children = (
+				17A7C7231E5A7F420000A598 /* HomePageViewController.swift */,
+				17A7C7251E5A7F530000A598 /* MessageViewController.swift */,
+				17A7C7271E5A7F5C0000A598 /* DiscoverViewController.swift */,
+				17A7C7291E5A7F7F0000A598 /* ProfileViewController.swift */,
+			);
+			name = ViewCotroller;
+			sourceTree = "<group>";
+		};
 		17A7C6E71E5A77610000A598 = {
 			isa = PBXGroup;
 			children = (
@@ -108,11 +133,8 @@
 			isa = PBXGroup;
 			children = (
 				17A7C6F31E5A77610000A598 /* AppDelegate.swift */,
-				179C81991E5A981E00E79166 /* MainViewController.swift */,
-				17A7C7231E5A7F420000A598 /* HomePageViewController.swift */,
-				17A7C7251E5A7F530000A598 /* MessageViewController.swift */,
-				17A7C7271E5A7F5C0000A598 /* DiscoverViewController.swift */,
-				17A7C7291E5A7F7F0000A598 /* ProfileViewController.swift */,
+				179C819B1E5AB1C800E79166 /* Main */,
+				179C819C1E5AB1EB00E79166 /* ViewCotroller */,
 				17A7C6F51E5A77610000A598 /* ViewController.swift */,
 				17A7C6F71E5A77610000A598 /* Main.storyboard */,
 				17A7C6FA1E5A77610000A598 /* Assets.xcassets */,
@@ -276,11 +298,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				17A7C7241E5A7F420000A598 /* HomePageViewController.swift in Sources */,
+				179C81A01E5AB31700E79166 /* MyBaseViewController.swift in Sources */,
 				17A7C6F61E5A77610000A598 /* ViewController.swift in Sources */,
 				17A7C6F41E5A77610000A598 /* AppDelegate.swift in Sources */,
 				17A7C7281E5A7F5C0000A598 /* DiscoverViewController.swift in Sources */,
 				17A7C72A1E5A7F7F0000A598 /* ProfileViewController.swift in Sources */,
 				17A7C7261E5A7F530000A598 /* MessageViewController.swift in Sources */,
+				179C819E1E5AB24600E79166 /* MyNavViewController.swift in Sources */,
 				179C819A1E5A981E00E79166 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
