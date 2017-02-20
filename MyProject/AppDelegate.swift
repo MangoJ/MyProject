@@ -20,7 +20,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         //创建 window
         window = UIWindow(frame: UIScreen.main.bounds)
         //设置跟控制器
-        window?.rootViewController = HomeViewController()
+        window?.rootViewController = MainViewController()
         window?.makeKeyAndVisible()
 
         return true

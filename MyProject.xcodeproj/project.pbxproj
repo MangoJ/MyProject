@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		179C819A1E5A981E00E79166 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 179C81991E5A981E00E79166 /* MainViewController.swift */; };
 		17A7C6F41E5A77610000A598 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7C6F31E5A77610000A598 /* AppDelegate.swift */; };
 		17A7C6F61E5A77610000A598 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7C6F51E5A77610000A598 /* ViewController.swift */; };
 		17A7C6F91E5A77610000A598 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A7C6F71E5A77610000A598 /* Main.storyboard */; };
@@ -14,7 +15,6 @@
 		17A7C6FE1E5A77610000A598 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17A7C6FC1E5A77610000A598 /* LaunchScreen.storyboard */; };
 		17A7C7091E5A77610000A598 /* MyProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7C7081E5A77610000A598 /* MyProjectTests.swift */; };
 		17A7C7141E5A77610000A598 /* MyProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7C7131E5A77610000A598 /* MyProjectUITests.swift */; };
-		17A7C7221E5A78AD0000A598 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7C7211E5A78AD0000A598 /* HomeViewController.swift */; };
 		17A7C7241E5A7F420000A598 /* HomePageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7C7231E5A7F420000A598 /* HomePageViewController.swift */; };
 		17A7C7261E5A7F530000A598 /* MessageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7C7251E5A7F530000A598 /* MessageViewController.swift */; };
 		17A7C7281E5A7F5C0000A598 /* DiscoverViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17A7C7271E5A7F5C0000A598 /* DiscoverViewController.swift */; };
@@ -39,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		179C81991E5A981E00E79166 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		17A7C6F01E5A77610000A598 /* MyProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A7C6F31E5A77610000A598 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		17A7C6F51E5A77610000A598 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -52,7 +53,6 @@
 		17A7C70F1E5A77610000A598 /* MyProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		17A7C7131E5A77610000A598 /* MyProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyProjectUITests.swift; sourceTree = "<group>"; };
 		17A7C7151E5A77610000A598 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		17A7C7211E5A78AD0000A598 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		17A7C7231E5A7F420000A598 /* HomePageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePageViewController.swift; sourceTree = "<group>"; };
 		17A7C7251E5A7F530000A598 /* MessageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MessageViewController.swift; sourceTree = "<group>"; };
 		17A7C7271E5A7F5C0000A598 /* DiscoverViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DiscoverViewController.swift; sourceTree = "<group>"; };
@@ -108,7 +108,7 @@
 			isa = PBXGroup;
 			children = (
 				17A7C6F31E5A77610000A598 /* AppDelegate.swift */,
-				17A7C7211E5A78AD0000A598 /* HomeViewController.swift */,
+				179C81991E5A981E00E79166 /* MainViewController.swift */,
 				17A7C7231E5A7F420000A598 /* HomePageViewController.swift */,
 				17A7C7251E5A7F530000A598 /* MessageViewController.swift */,
 				17A7C7271E5A7F5C0000A598 /* DiscoverViewController.swift */,
@@ -280,8 +280,8 @@
 				17A7C6F41E5A77610000A598 /* AppDelegate.swift in Sources */,
 				17A7C7281E5A7F5C0000A598 /* DiscoverViewController.swift in Sources */,
 				17A7C72A1E5A7F7F0000A598 /* ProfileViewController.swift in Sources */,
-				17A7C7221E5A78AD0000A598 /* HomeViewController.swift in Sources */,
 				17A7C7261E5A7F530000A598 /* MessageViewController.swift in Sources */,
+				179C819A1E5A981E00E79166 /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
