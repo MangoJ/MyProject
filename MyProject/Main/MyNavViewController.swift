@@ -13,7 +13,7 @@ class MyNavViewController: UINavigationController {
     override func viewDidLoad() {
         super.viewDidLoad()
         //隐藏navgationBar
-//        navigationBar.isHidden = true
+        navigationBar.isHidden = true
         // Do any additional setup after loading the view.
     }
 
@@ -22,17 +22,21 @@ class MyNavViewController: UINavigationController {
          //如果不是栈底控制器才会隐藏
         if childViewControllers.count>0 {
             viewController.hidesBottomBarWhenPushed = true
-            //判断控制器的级数
-            if childViewControllers.count == 1 {
-                //级数为1时显示的是首页的标题否则显示 "返回"
-                title = childViewControllers.first?.title ?? "返回"
+            if let vc = viewController as? MyBaseViewController {
+                //判断控制器的级数
+                if childViewControllers.count == 1 {
+                    //级数为1时显示的是首页的标题否则显示 "返回"
+                    title = childViewControllers.first?.title ?? "返回"
 
-            }else{
-                title = "返回"
+                }else{
+                    title = "返回"
+                }
+
+                vc.navItem.leftBarButtonItem = UIBarButtonItem(title: title, style: .done, target: self, action: #selector(popback))
+                
             }
-            viewController.navigationItem.leftBarButtonItem = UIBarButtonItem(title: title, style: .done, target: self, action: #selector(popback))
-
         }
+
         super.pushViewController(viewController, animated: true)
     }
     
